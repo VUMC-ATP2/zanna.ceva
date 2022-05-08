@@ -6,4 +6,4 @@
 ####Let's have a successful start!:+1:
 ##### You can find more information about me here [_a little bit about me_](https://www.theguardian.com/lifeandstyle/2020/sep/05/what-cats-mean-by-miaow-japans-pet-guru-knows-just-what-your-feline-friend-wants).
 ## *Have a successful day!*:tada:
-![:slightly_smiling_face:](https://www.villageveterinaryclinic.com/sites/default/files/interesting-cat-facts.jpg)
+![This is an image](img/Catsmile.png)
