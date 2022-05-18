@@ -1,61 +1,100 @@
-* {
+{
+    ma
+}
+
+a {
+    color: black;
+}
+
+body {
+    background: Linen;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.foto {
+    border-radius: 15px;
+    float: left;
+}
+
+.Header p {
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+#Contacts {
+    text-align: left;
+    margin-left: 350px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.SUM {
+    border-radius: 7px;
+    background-color: tan;
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+{
     max-width: 100%;
     margin: auto;
 }
 
-div {
+*/ div {
     border-radius: 10px;
 }
 
-#header {
-    height: 40px;
-    width: 100%;
-    background-color: rgba(rgb(231, 195, 195), rgb(42, 214, 42), rgb(105, 105, 226), alpha1);
-    position: fixed;
-    z-index: 1;
+#Left {
+    text-align: left;
+    padding-left: 40px;
+    padding-bottom: 10px;
 }
 
-.footer {
-    height: 40px;
-    width: 100%;
-    background-color: rgb(rgb(228, 49, 49), rgb(41, 177, 41), rgb(40, 40, 221));
-    position: relative;
-    clear: both;
+#Right {
+    text-align: justify;
+    padding-right: 40px;
+    padding-bottom: 10px;
 }
 
-.left-side {
-    height: 1010px;
-    width: 50px;
-    background-color: aqua;
-    float: left;
-    position: fixed;
+.Normal {
+    color: brown;
+    font-size: 15px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.right-side {
-    height: 1010px;
-    width: 50px;
-    background-color: aqua;
-    float: right;
-    position: inherit;
+.Heading {
+    color: rgb(27, 27, 26);
+    font-size: 20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.content {
-    display: inline-block;
-    margin-top: 6px;
-    margin-left: 60px;
-    width: 75%;
-    height: 1010px;
-}
-
-.heading {
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    margin-top: 20px
+.Heading2 {
+    color: rgb(27, 27, 26);
+    font-size: 18px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .copyright {
-    float: right;
-    margin-top: 10px;
-    margin-right: 20px;
+    border-radius: 7px;
+    background-color: tan;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
