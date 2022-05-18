@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     ma
 }
@@ -97,4 +98,105 @@ body {
     padding-right: 40px;
     padding-top: 10px;
     padding-bottom: 5px;
+=======
+                                                     * {
+                                                     max-width: 100%;
+                                                     margin: auto;
+                                                 }
+                                                 /* #header {
+                                             display: inline-block;
+                                             margin-top: 5px;
+                                             margin-left: 25px;
+                                             height: 50px;
+                                             width: 100%;
+                                             background-color: rgb(182, 43, 43);
+                                             position: fixed;
+                                             z-index: 1;
+                                         } */
+                                                 /*  
+                             #SUM {
+                                 display: inline-block;
+                                 margin-top: 300px;
+                                 margin-left: 25px;
+                                 margin-right: 25px;
+                                 height: 100px;
+                                 width: 100%;
+                                 background-color: rgb(182, 173, 43);
+                                 position: fixed;
+                             }
+                              */
+                                                 /*  
+                                 #footer {
+                                     display: inline-block;
+                                     margin-top: 1000px;
+                                     margin-left: 25px;
+                                     height: 50px;
+                                     width: 100%;
+                                     background-color: rgb(80, 43, 182);
+                                     position: fixed;
+                                 }
+                                 */
+                                                 
+                                                 section {
+                                                     padding: 5px 5px;
+                                                 }
+                                                 
+                                                 section#about img {
+                                                     float: left;
+                                                 }
+                                                 
+                                                 section#about .content {
+                                                     margin-left: 0px;
+                                                 }
+                                                 /*
+body {
+    background: url(Resume-CV-Templates.jpg) no-repeat fixed center;
+    background-size: cover;
+    background-position: left;
+}*/
+                                                 
+                                                 .column {
+                                                     float: left;
+                                                     width: 50%;
+                                                 }
+                                                 /* Clear floats after the columns */
+                                                 
+                                                 .row:after {
+                                                     content: "";
+                                                     display: table;
+                                                     clear: both;
+                                                 }
+                                                 
+                                                 {
+                                                     max-width: 100%;
+                                                     margin: auto;
+                                                 }
+                                                 
+                                                 .Heading {
+                                                     color: rgb(8, 45, 100);
+                                                     font-style: italic;
+                                                     font-family: 'Trebuchet MS', sans-serif;
+                                                 }
+                                                 
+                                                 .Heading2 {
+                                                     color: rgb(00, 00, 00);
+                                                     font-size: 18px;
+                                                     font-style: normal;
+                                                     font-family: 'Trebuchet MS', sans-serif;
+                                                 }
+                                                 
+                                                 .Italic {
+                                                     color: rgb(00, 00, 00);
+                                                     font-size: 16px;
+                                                     font-style: normal;
+                                                     font-family: 'Trebuchet MS', sans-serif;
+                                                     /*
+#heading {
+    background: url(Resume-CV-Templates.jpg) no-repeat fixed center;
+    height: 1000px;
+    width: 50%;
+    background-color: rgba(rgb(231, 195, 195), rgb(42, 214, 42), rgb(105, 105, 226), alpha1);
+    position: sticky;
+    z-index: 1;
+>>>>>>> f6643786ddfcb4320013d2ca7b66ddc74f1cb0b6
 }
