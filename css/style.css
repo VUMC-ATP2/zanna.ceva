@@ -1,0 +1,101 @@
+{
+    ma
+}
+
+a {
+    color: black;
+}
+
+body {
+    background: Linen;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.foto {
+    border-radius: 15px;
+    float: left;
+}
+
+.Header p {
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+#Contacts {
+    text-align: left;
+    margin-left: 350px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.SUM {
+    border-radius: 7px;
+    background-color: tan;
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+{
+    max-width: 100%;
+    margin: auto;
+}
+
+*/ div {
+    border-radius: 10px;
+}
+
+#Left {
+    text-align: left;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+#Right {
+    text-align: justify;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+.Normal {
+    color: brown;
+    font-size: 15px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Heading {
+    color: rgb(27, 27, 26);
+    font-size: 20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Heading2 {
+    color: rgb(27, 27, 26);
+    font-size: 18px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.copyright {
+    border-radius: 7px;
+    background-color: tan;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
