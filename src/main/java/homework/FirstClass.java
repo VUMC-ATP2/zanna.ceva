@@ -2,21 +2,21 @@ package homework;
 
 public class FirstClass {
      public static void main(String[] args) {
-          String CountryName = "Portugal";
-          /*System.out.println("This country is" + CountryName);*/
-          System.out.printf("This country is %s.", CountryName);
-          int CountryPopulation = 10344802;
-          /*System.out.printf(" The population of the " + CountryName + " is " + CountryPopulation + ".");*/
-          System.out.printf("The population of the %s is %d.", CountryName, CountryPopulation);
-          double CountryArea = 92.212;
-          System.out.println(CountryName + " territory is " + CountryArea + " \u33A2.");
-          String CapitalName = "Lisbon";
-          System.out.println("The capital of " + CountryName + " is " + CapitalName + ".");
-          String CountryLanguage = "Portuguese";
-          System.out.println(CountryLanguage + " is the official language of " + CountryName + ".");
-          String EurUnion = "Europian Union";
-          String CurrencyEuro = "\u20AC";
-          System.out.println(CountryName + " is a part of the " + EurUnion + "," + " as a result the official currency of the country is " + CurrencyEuro + " (Euro).");
+          String countryName = "Portugal";
+          /*System.out.println("This country is" + countryName);*/
+          System.out.printf("This country is %s.", countryName);
+          int countryPopulation = 10344802;
+          /*System.out.printf(" The population of the " + countryName + " is " + countryPopulation + ".");*/
+          System.out.printf("The population of the %s is %d.", countryName, countryPopulation);
+          double countryArea = 92.212;
+          System.out.println(countryName + " territory is " + countryArea + " \u33A2.");
+          String capitalName = "Lisbon";
+          System.out.println("The capital of " + countryName + " is " + capitalName + ".");
+          String countryLanguage = "Portuguese";
+          System.out.println(countryLanguage + " is the official language of " + countryName + ".");
+          String eurUnion = "Europian Union";
+          String currencyEuro = "\u20AC";
+          System.out.println(countryName + " is a part of the " + eurUnion + "," + " as a result the official currency of the country is " + currencyEuro + " (Euro).");
           System.out.println("Let's calculate:");
           int a = 10;
           int b = 2;
@@ -44,7 +44,7 @@ public class FirstClass {
           int ResultMin = (Math.min(a, b));
           int f = a*b + ResultMin;
           System.out.println("Result is " + f);
-          System.out.println("Home task about " + CountryName + " is finished!");
+          System.out.println("Home task about " + countryName + " is finished!");
      }
 }
 
