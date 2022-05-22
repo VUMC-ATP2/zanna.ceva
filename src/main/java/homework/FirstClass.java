@@ -22,8 +22,8 @@ public class FirstClass {
           int b = 2;
           int c = a + b;
           int d = a - b;
-          int Result = (Math.max(a, b));
-          System.out.println(Result);
+          int result = (Math.max(a, b));
+          System.out.println(result);
 
           if (a > 5) {
                System.out.println("Result is " + c);
@@ -39,10 +39,10 @@ public class FirstClass {
                } else {
                     System.out.println("Condition not met!");}
           }
-          int e = a/b + Result;
+          int e = a/b + result;
           System.out.println("Result is " + e);
-          int ResultMin = (Math.min(a, b));
-          int f = a*b + ResultMin;
+          int resultMin = (Math.min(a, b));
+          int f = a*b + resultMin;
           System.out.println("Result is " + f);
           System.out.println("Home task about " + countryName + " is finished!");
      }
