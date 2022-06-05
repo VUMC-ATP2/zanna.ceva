@@ -1,7 +1,7 @@
 package homeworkTwo;
 import java.util.Scanner;
 
-public class HomeWorkTwo {
+public class    HomeWorkTwo {
     public static void main(String[] args) {
         System.out.println("1.uzdevums [a]");
         int x = 10;
