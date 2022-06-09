@@ -1,43 +1,29 @@
 package homeworkTwo;
+
 import java.util.Scanner;
 
-public class    HomeWorkTwo {
+public class HomeWorkTwo {
     public static void main(String[] args) {
         System.out.println("1.uzdevums [a]");
         int x = 10;
         int y = 7;
-        if (x > 0)
-            System.out.println("x>0");
-            System.out.println("\n");
-            System.out.println("1.uzdevums [b]");
-            if (x < 0) {
-                System.out.println("x<0");
-            } else {
-                System.out.println("FALSE");
-            }
-            System.out.println("\n");
-            System.out.println("1.uzdevums [c]");
-            if (x > 5 && x <= 10) {
-                System.out.println("5<x<=10");
-            }
-            System.out.println("\n");
-            System.out.println("1.uzdevums [d]");
-            if (y >= 5 && y < 10) {
-                System.out.println("5=<y<10");
-            }
-            System.out.println("\n");
-            System.out.println("1.uzdevums [e]");
-            if (y == 0 || y == 10) {
-                System.out.println("y=0 and y=10");
-            } else {
-                System.out.println("FALSE");
-            }
-            System.out.println("\n");
-            System.out.println("1.uzdevums [f]");
-            if (x * x > 10) {
-                System.out.println("x*x > 10");
-            }
-            System.out.println("\n");
+        boolean result = x > 0;
+        System.out.println(result);
+        System.out.println("1.uzdevums [b]");
+        result = x < 0;
+        System.out.println(result);
+        System.out.println("1.uzdevums [c]");
+        result = x > 5 && x <= 10;
+        System.out.println(result);
+        System.out.println("1.uzdevums [d]");
+        result = y >= 5 && y < 10;
+        System.out.println(result);
+        System.out.println("1.uzdevums [e]");
+        result = y == 0 || y == 10;
+        System.out.println(result);
+        System.out.println("1.uzdevums [f]");
+        result = x * x > 10;
+        System.out.println(result);
 //////////////////////////////////////////////////////////////////////////////////////////////
             System.out.println("2.uzdevums");
             Scanner monthNumber = new Scanner(System.in);
@@ -108,14 +94,14 @@ public class    HomeWorkTwo {
         System.out.println("Enter traffic light colour: ");
         Scanner lightColour = new Scanner(System.in);
         String input = lightColour.next();
-        switch (input) {
-            case "Red":
+        switch (input.toUpperCase()) {
+            case "RED":
                 System.out.println("STOP!");
                 break;
-            case "Yellow":
+            case "YELLOW":
                 System.out.println("WAIT!");
                 break;
-            case "Green":
+            case "GREEN":
                 System.out.println("GO!");
                 break;
             default:
@@ -136,14 +122,17 @@ public class    HomeWorkTwo {
         System.out.println("\n");
 //////////////////////////////////////////////////////////////////////////////////////////////
         System.out.println("8.uzdevums");
-        System.out.println(average(3,2,6));
+        System.out.println(average(10, 3, 5));
     }
+
+
     public static void printBusinessCard(String businessCard, String symbol, String name, String surName, String phoneNumber, int yearOfBirth) {
         System.out.printf("%s%n %s%n Vārds: %s%n Uzvārds: %s%n Telefona numurs: %s%n Dzimšanas gads: %s%n %s%n", businessCard, symbol, name, surName, phoneNumber, yearOfBirth, symbol);
         System.out.printf("%s%n %s%n Vārds: %s%n Uzvārds: %s%n Telefona numurs: %s%n Dzimšanas gads: %s%n %s%n", businessCard, symbol, name, surName, phoneNumber, yearOfBirth, symbol);
         System.out.printf("%s%n %s%n Vārds: %s%n Uzvārds: %s%n Telefona numurs: %s%n Dzimšanas gads: %s%n %s%n", businessCard, symbol, name, surName, phoneNumber, yearOfBirth, symbol);
         System.out.println("\n");
     }
+
     public static void printBusinessCardTwo(String businessCard, String symbol, String name1, String name2, String surName1, String surName2, String phoneNumber1, String phoneNumber2, int yearOfBirth1, int yearOfBirth2) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter first person name");
@@ -167,6 +156,7 @@ public class    HomeWorkTwo {
         System.out.printf("%s%n %s%n Vārds: %s%n Uzvārds: %s%n Telefona numurs: %s%n Dzimšanas gads: %s%n %s%n", businessCard, symbol, name2, surName2, phoneNumber2, yearOfBirth2, symbol);
         System.out.println("\n");
     }
+
     public static int sum(int num1, int num2) {
         Scanner sum = new Scanner(System.in);
         System.out.println("Please enter first number");
@@ -175,16 +165,14 @@ public class    HomeWorkTwo {
         num2 = sum.nextInt();
         return num1 + num2;
     }
+
     public static double average(double num3, double num4, double num5) {
-        Scanner average = new Scanner(System.in);
-        System.out.println("Please enter first number");
-        num3 = average.nextDouble();
-        System.out.println("Please enter second number");
-        num4 = average.nextDouble();
-        System.out.println("Please enter third number");
-        num5 = average.nextDouble();
-        return (num3 + num4 + num5)/3;
+        num3 = 10.5;
+        num4 = 2.5;
+        num5 = 4.5;
+        return (num3 + num4 + num5) / 3;
     }
+
 }
 
 
