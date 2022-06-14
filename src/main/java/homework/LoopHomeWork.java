@@ -10,16 +10,12 @@ public class LoopHomeWork {
         int num = 0;
         int sum = 0;
         while (sum < 100) {
-            sum = sum + num;
-            if (sum > 100) {
-                System.out.println("Loop process is stopped!");
-                System.out.println("The sum (" + sum + ") is > 100.");
-                break;
-            } else {
-                System.out.println("Please enter number: ");
-                num = scanner.nextInt();
-            }
+            System.out.println("Enter number:");
+            int enteredNumber = scanner.nextInt();
+            sum = sum + enteredNumber;
         }
+                System.out.println("Sum: " + sum);
+
         ////////////////////////////////////////////////////////////////////
         System.out.println("2.uzdevums");
         Scanner primeOrNot = new Scanner(System.in);

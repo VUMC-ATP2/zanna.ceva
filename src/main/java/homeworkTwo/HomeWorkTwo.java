@@ -167,9 +167,6 @@ public class HomeWorkTwo {
     }
 
     public static double average(double num3, double num4, double num5) {
-        num3 = 10.5;
-        num4 = 2.5;
-        num5 = 4.5;
         return (num3 + num4 + num5) / 3;
     }
 
